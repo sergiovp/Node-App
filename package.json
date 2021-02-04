@@ -18,8 +18,7 @@
     "url": "https://github.com/sergiovp/Node-App/issues"
   },
   "homepage": "https://github.com/sergiovp/Node-App#readme",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
