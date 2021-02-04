@@ -2,3 +2,31 @@ h1 {
     color: blueviolet;
     text-align: center;
 }
+
+/* Reglas para el Footer (Pie de página) */
+.pie_pagina {
+    border-top: solid;
+    border-width: thin;
+    margin-top: 1.1rem;
+    border-color: #cbe7fb;
+}
+
+.pie_contacto {
+    text-align: center;
+}
+
+.seccion_copyright {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.btn-toolbar {
+    display: block;
+    text-align: center;
+}
+
+#footer-botones {
+    display: list-item;
+    border: none;
+}
