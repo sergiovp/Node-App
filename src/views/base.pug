@@ -8,6 +8,8 @@ html
         link(rel='stylesheet' href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css' integrity='sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==' crossorigin='')
         script(src='https://unpkg.com/leaflet@1.7.1/dist/leaflet.js' integrity='sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==' crossorigin='')
         link(rel='stylesheet' type='text/css' href='styles/style.css')
+        link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css')
+
 
         block titulo
             title Inicio
@@ -16,3 +18,20 @@ html
     body
         block contenido
 
+        block footer
+            footer.pie_pagina
+                nav#footer-botones.navbar.navbar-expand-lg.navbar-light
+                    .btn-toolbar(role='toolbar' aria-label='Toolbar with button groups')
+                        .btn-group.mr-2(role='group' aria-label='First group')
+                            a.btn.btn-outline-dark(target='_blank' role='button' href='https://github.com/sergiovp' type='button')
+                                i.fab.fa-github-square
+                        .btn-group.mr-2(role='group' aria-label='First group')
+                            a.btn.btn-outline-primary(target='_blank' role='button' href='https://www.linkedin.com/in/sergio-vela-pelegrina-8015721b4' type='button')
+                                i.fab.fa-linkedin
+                        .btn-group.mr-2(role='group' aria-label='Second group')
+                            a.btn.btn-outline-danger(target='_blank' role='button' href='https://www.instagram.com/sergiovela7/' type='button')
+                                i.fab.fa-instagram
+                section.seccion_copyright
+                    p.mensaje_copy
+                        | Copyright © Todos los derechos reservados al
+                        | autor Sergio Vela Pelegrina (sergiovp96@gmail.com)
